@@ -95,7 +95,7 @@ function generateTestData(count) {
   const categories = ["A", "B", "C", "D", "E", "F"];
   const names = ["Mike", "Kurt", "Sam", "Sarah", "Sohpie", "Emily"];
   const result = [];
-  for (var i = 0; i < count; i++) {
+  for (let i = 0; i < count; i++) {
     result.push({
       id: i,
       name: names[i % names.length],

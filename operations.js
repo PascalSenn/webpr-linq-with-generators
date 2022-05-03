@@ -82,7 +82,6 @@ const operations = {
   },
 };
 
-var Generator = Object.getPrototypeOf(function* () {});
-
+const Generator = Object.getPrototypeOf(function* () {});
 Object.assign(Generator.prototype, operations);
 Object.assign(Array.prototype, operations);
