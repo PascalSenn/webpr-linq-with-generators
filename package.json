@@ -1,0 +1,13 @@
+{
+  "name": "linqforjs",
+  "version": "1.0.0",
+  "description": "Linqlike async generators for Js",
+  "main": "operations.js",
+  "type": "module",
+  "scripts": {
+    "test": "node operations.test.js",
+    "benchmark": "node benchmark.js"
+  },
+  "author": "Pascal Senn",
+  "license": "ISC"
+}
